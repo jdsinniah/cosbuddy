@@ -1,0 +1,3 @@
+[submodule "gatheringservice"]
+	path = gatheringservice
+	url = ./gatheringservice/
