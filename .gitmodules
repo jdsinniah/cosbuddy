@@ -1,3 +1,3 @@
 [submodule "gatheringservice"]
 	path = gatheringservice
-	url = ./gatheringservice/
+	url = https://github.com/jdsinniah/gatheringservice.git
