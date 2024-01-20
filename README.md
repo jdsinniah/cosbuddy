@@ -74,6 +74,23 @@
     - cd to configurations/database
     - run ./postgres-install.sh
 
+## Setup DBs
+### DB name list
+	- gatherinservice
+
+### Create your user
+	- run in terminal
+	- sudo -u postgres psql
+	- CREATE USER {username} WITH PASSWORD {password} CREATEDB;
+
+### Create DBs and grant privileges (Repeat these steps for each microservice)
+	- run in terminal
+	- sudo -u postgres psql
+	- CREATE DATABASE gatheringservice;
+	- GRANT ALL PRIVILEGES ON DATABASE gatheringservice to {username};
+	- \c gatheringservice
+	- GRANT ALL ON SCHEMA public TO {username};
+
 ## Install Firefox
     - Open terminal
     - Run:
@@ -90,8 +107,9 @@
      git config --global user.name "{name}"
      git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
 
-# Git Utility
+# DEVELOPMENT HELPERS
 
+## Git Utility
 ## Adding new submodule to cosbuddy project
     - Create first a repository in GitHub and copy the https url
     - Then open terminal and cd to cosbuddy folder
