@@ -121,3 +121,8 @@
 
 ## Clone cosbuddy project with submodules
     - git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
+
+## Liquibase
+## Adding a changelog
+	- Create a changelog file in resources/db/changelog naming it with the following convention: db.changelog-ddmmyyyyhhmm-username.xml (hhmm uses military time)
+	- Include the file within db.changelog-master.xml using <include file="{file path}"> tag
