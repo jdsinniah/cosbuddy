@@ -1,3 +1,6 @@
 [submodule "gatheringservice"]
 	path = gatheringservice
 	url = https://github.com/jdsinniah/gatheringservice.git
+[submodule "socialservice"]
+	path = socialservice
+	url = https://github.com/jdsinniah/socialservice.git
