@@ -77,6 +77,8 @@
 ## Setup DBs
 ### DB name list
 	- gatherinservice
+	- socialservice
+	- gatewayservice
 
 ### Create your user
 	- run in terminal
@@ -107,15 +109,23 @@
      git config --global user.name "{name}"
      git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
 
+## Install curl
+	- Open terminal and run: sudo apt install curl
+
+## Install NVM and Node
+	- Open terminal and run:
+	- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+	- the close and reopen terminal and run:
+	- nvm install --lts
+
 # DEVELOPMENT HELPERS
 
 ## Git Utility
 ## Adding new submodule to cosbuddy project
     - Create first a repository in GitHub and copy the https url
     - Then open terminal and cd to cosbuddy folder
-    - Run: git clone {url}
-    - git submodule add ./{submodule name}
-    - git add .
+    - Run:
+    - git submodule add {submodule url} ./{submodule name}
     - git commit -m "Added {submodule name} as git submodule to cosbuddy project"
     - git push
 

@@ -7,3 +7,6 @@
 [submodule "gatewayservice"]
 	path = gatewayservice
 	url = https://github.com/jdsinniah/gatewayservice.git
+[submodule "cosbuddy-app"]
+	path = cosbuddy-app
+	url = https://github.com/jdsinniah/cosbuddy-app.git
