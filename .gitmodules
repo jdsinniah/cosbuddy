@@ -4,3 +4,6 @@
 [submodule "socialservice"]
 	path = socialservice
 	url = https://github.com/jdsinniah/socialservice.git
+[submodule "gatewayservice"]
+	path = gatewayservice
+	url = https://github.com/jdsinniah/gatewayservice.git
