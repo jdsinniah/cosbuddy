@@ -109,6 +109,13 @@
      git config --global user.name "{name}"
      git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
 
+## Setup GitHub CLI
+	- Open terminal and run:
+	- sudo snap install gh
+	- sudo apt-get install libcurl4-openssl-dev
+	- gh auth login
+	- And then follow instructions
+
 ## Install curl
 	- Open terminal and run: sudo apt install curl
 
@@ -128,6 +135,11 @@
     - git submodule add {submodule url} ./{submodule name}
     - git commit -m "Added {submodule name} as git submodule to cosbuddy project"
     - git push
+
+## Creating a new repository from GitHub CLI
+	(DOCS JUST IN CASE https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github)
+	- Open terminal and run:
+	- gh repo create
 
 ## Clone cosbuddy project with submodules
     - git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git

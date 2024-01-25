@@ -10,3 +10,6 @@
 [submodule "cosbuddy-app"]
 	path = cosbuddy-app
 	url = https://github.com/jdsinniah/cosbuddy-app.git
+[submodule "service-registry"]
+	path = service-registry
+	url = https://github.com/jdsinniah/service-registry.git
