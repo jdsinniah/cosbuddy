@@ -97,6 +97,11 @@
     - Open terminal
     - Run:
      sudo apt install firefox
+
+## Install Maven
+	- Open terminal
+	- Run:
+	- sudo apt install maven
     
 ## Install Git & Setup Git credentials
     - Open terminal
@@ -108,6 +113,11 @@
      git config --global user.email "{email}"
      git config --global user.name "{name}"
      git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
+
+# Project startup
+	- Open terminal from cosbuddy folder
+	- cd common
+	- mvn clean install
 
 ## Setup GitHub CLI
 	- Open terminal and run:
