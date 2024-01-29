@@ -79,18 +79,19 @@
 	- gatherinservice
 	- socialservice
 	- gatewayservice
+	- authservice
 
 ### Create your user
 	- run in terminal
 	- sudo -u postgres psql
 	- CREATE USER {username} WITH PASSWORD {password} CREATEDB;
 
-### Create DBs and grant privileges (Repeat these steps for each microservice)
+### Create DBs and grant privileges (Repeat these steps for each DB on list above)
 	- run in terminal
 	- sudo -u postgres psql
-	- CREATE DATABASE gatheringservice;
-	- GRANT ALL PRIVILEGES ON DATABASE gatheringservice to {username};
-	- \c gatheringservice
+	- CREATE DATABASE {dbname};
+	- GRANT ALL PRIVILEGES ON DATABASE {dbname} to {username};
+	- \c {dbname}
 	- GRANT ALL ON SCHEMA public TO {username};
 
 ## Install Firefox
