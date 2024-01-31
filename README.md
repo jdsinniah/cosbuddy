@@ -76,9 +76,8 @@
 
 ## Setup DBs
 ### DB name list
-	- gatherinservice
+	- gatheringservice
 	- socialservice
-	- gatewayservice
 	- authservice
 
 ### Create your user
