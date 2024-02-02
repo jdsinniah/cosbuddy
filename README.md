@@ -74,6 +74,10 @@
     - cd to configurations/database
     - run ./postgres-install.sh
 
+## Install DBeaver
+	- Open terminal and run:
+	- sudo snap install dbeaver-ce
+
 ## Setup DBs
 ### DB name list
 	- gatheringservice
@@ -153,6 +157,9 @@
 
 ## Clone cosbuddy project with submodules
     - git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
+
+## Update cosbuddy project with submodules
+    - git submodule update
 
 ## Liquibase
 ## Adding a changelog
