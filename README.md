@@ -78,6 +78,10 @@
 	- Open terminal and run:
 	- sudo snap install dbeaver-ce
 
+## Instal Postman
+	- Open terminal and run:
+	- sudo snap install postman
+
 ## Setup DBs
 ### DB name list
 	- gatheringservice
