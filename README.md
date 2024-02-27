@@ -159,7 +159,7 @@
     - git clone --recurse-submodules https://github.com/jdsinniah/cosbuddy.git
 
 ## Update cosbuddy project with submodules
-    - git submodule update
+    - git submodule update --recursive --remote
 
 ## Liquibase
 ## Adding a changelog
